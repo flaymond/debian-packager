@@ -17,7 +17,7 @@ A few scripts to packaging simple Debian .deb package.
 ## TODO
 * Make the program use 1 script only, and not 3 for ease of use.
 
-## Author
+## Contributors
 
 * [flaymond](https://www.github.com/flaymond)
 
