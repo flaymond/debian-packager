@@ -1,0 +1,30 @@
+#!/bin/bash
+
+# use with 'controlc packagename'
+
+echo -n "Package: "
+read PACKAGE_NAME
+echo -n "Version: "
+read VERSION_NUM
+echo -n "Installed-Size: "
+read INST_SIZE
+echo -n "Section: "
+read DEB_SECTION
+echo -n "Priority: "
+read DEB_PRIORITY
+echo -n "Architecture: "
+read DEB_ARCH
+echo -n "Maintainer: "
+read MAINT_NAME
+echo -n "Description: "
+read DESP
+
+# Appending input as a formatted data into packagename/DEBIAN/control
+echo "Package: ${PACKAGE_NAME}" >> $1/DEBIAN/control
+echo "Version: ${VERSION_NUM}" >> $1/DEBIAN/control
+echo "Installed-Size: ${INST_SIZE}" >> $1/DEBIAN/control
+echo "Section: ${DEB_SECTION}" >> $1/DEBIAN/control
+echo "Priority: ${DEB_PRIORITY}" >> $1/DEBIAN/control
+echo "Architecture: ${DEB_ARCH}" >> $1/DEBIAN/control
+echo "Maintainer: ${MAINT_NAME}" >> $1/DEBIAN/control
+echo "Description: ${DESP}" >> $1/DEBIAN/control

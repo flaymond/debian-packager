@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# Author: Flaymond Darius
+# output size of the packagename directory
+du -sx --exclude DEBIAN $1

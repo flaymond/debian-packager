@@ -1,0 +1,5 @@
+#!/bin/sh 
+
+# Build package to .deb
+
+fakeroot dpkg --build $1
