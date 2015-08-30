@@ -9,7 +9,7 @@ A few scripts to packaging simple Debian .deb package.
 
 * This program/scripts is only for simple debian packaging.
 
-* For advanced use, you need to tweak the scripts to complete your task.
+* For advanced usage, you need to tweak the scripts to accomplished your task.
 
 * Refer to the README.md file in scripts directory for tutorial to setup the program.
 
