@@ -1,4 +1,4 @@
-## packdeb
+## debian-packager
 A few scripts to packaging simple Debian .deb package.
 
 ## Note
